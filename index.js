@@ -13,7 +13,7 @@ program.parse(process.argv);
 
 const argv = program.opts();
 
-// TODO: рефакторить
+
 async function invokeAction({ action, id, name, email, phone }) {
 
     switch (action) {
